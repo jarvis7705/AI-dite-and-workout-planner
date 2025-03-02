@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain.prompts import PromptTemplate
-  from langchain.llms import CTransformers,OpenAI
+from langchain.llms import CTransformers,OpenAI
 from langchain.chains import LLMChain
 import re
 import os
